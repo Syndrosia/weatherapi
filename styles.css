@@ -1,0 +1,446 @@
+#bodyv2 {
+    position: absolute;
+    background-color: rgb(47, 49, 73);
+    width: 60%;
+    height: 95%;
+    border-radius: 40px;
+    top: 50%;
+    left: 49.1%;
+    transform: translate(-50%, -50%);  
+}
+
+body {
+    background-color: rgb(44, 46, 68);  
+    margin: 0;
+}   
+
+#sunny {
+    position: absolute;
+    width: 28%;  
+    height: 88%;
+    border-radius: 40px;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#sunnyOverlay {
+    position: absolute;
+    width: 28%;
+    background: rgb(9,9,121);
+    background: linear-gradient(110deg, rgb(138, 232, 255) 10%, rgb(100, 163, 204) 40%, rgb(109, 167, 255) 90%);
+    opacity: 0.7;
+    height: 88%;
+    border-radius: 40px;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#sunnyOverlayInfo {
+    position: absolute;
+    width: 28%;
+    height: 88%;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#day {
+    position: relative;
+    top: -2%;
+    left: 7%;
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+#date {
+    position: relative;
+    top: -9%;
+    left: 7%;
+    color: white;   
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#locationicon {
+    position: relative;
+    top: -8%;
+    left: 7%;
+    width: 30px;
+}
+
+#location {
+    position: relative;
+    top: -14.75%;
+    left: 15%;
+    color: white;   
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#sunnyicon {    
+    position: relative;
+    top: 10%;
+    left: 7%;
+    width: 125px;
+    height: 125px;
+    color: white;
+}
+
+#weathertype {
+    position: relative;
+    top: 5%;
+    left: 7%;
+    color: white;
+    font-weight: bold;
+    font-size: 70px; 
+    white-space: nowrap;
+}
+
+#temp {
+    position: relative;
+    top: -9%;
+    left: 7%;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+}
+
+#information {
+    position: relative;
+    top: 5.5%;
+    left: 47%;
+    width: 46.5%;
+    height: 85%;
+    background-color: rgb(22, 24, 36);
+    border-radius: 40px;
+}
+
+#valsContainer {
+    position: relative;
+    width: 80%;
+    height: 36%;
+    top: 5%;
+    left: 13%;
+    background-color: rgb(25, 27, 39);
+    border-radius: 40px;
+}
+
+.stats {
+    position: relative;
+    top: 4%;
+    left: 6.5%;
+    color: white;
+    font-size: 26px;
+}
+
+.vals {
+    position: absolute;
+    top: -74%;
+    left: 75%;
+    font-size: 26px;
+    color: white;
+}
+
+#precip {
+    position: relative;
+    top: 15%;
+    left: 2%;
+    font-size: 26px;
+    color: white;
+}
+
+#humid {
+    position: relative;
+    top: 15%;
+    left: 2%;
+    font-size: 26px;
+    color: white;
+}
+
+#wind {
+    position: relative;
+    top: 16%;
+    left: 2%;
+    font-size: 26px;
+    color: white;
+}
+
+#viewdis {
+    position: relative;
+    top: 16%;
+    left: 2%;
+    font-size: 26px;
+    color: white;
+}
+
+#weekdayHolder {
+    position: relative;
+    width: 80%;
+    height: 25%;
+    top: 10%;
+    background-color: rgb(25, 27, 39);
+    left: 13%;
+    border-radius: 40px;
+}
+
+.daylist {
+    position: relative;
+    margin: 0;
+    width: 20%;
+    height: 80%;
+    left: 8.5%;
+    top: 10%;
+    background: linear-gradient(0deg, rgb(22, 24, 36) 30%, rgb(29, 30, 44) 50%, rgb(35, 35, 54) 70%, rgb(44, 46, 68) 100%);
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.tempdays {
+    position: relative;
+    top: -25%;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.weekdaydays {
+    position: relative;
+    top: -5%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#tod {
+    background: linear-gradient(180deg,  rgb(100, 163, 204) 40%, rgb(109, 167, 255) 90%);
+    border: white solid 4px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+
+.weekdayicons {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+#changelocationbutton {
+    position: relative;
+    top: 19%;
+    left: 53%;
+    width: 67%;
+    height: 8%; 
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    background: linear-gradient(167deg,  rgb(142, 210, 255) 40%, rgb(109, 167, 255) 90%);
+    border: 4px solid white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#changelocationbuttonicon {
+    position: relative;
+    top: 16%;
+    right: 34%;
+    width: 4%;
+    height: 4%;
+}
+
+#changelocationpopupcanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24%;
+    height: 30%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(0deg,  rgb(44, 46, 68) 10%, rgb(30, 36, 50) 80%);
+    border-radius: 40px;
+    border: 4px solid white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+    visibility: hidden;
+}
+
+#changelocationtext {
+    position: relative;
+    text-align: center;
+    top: -20%;
+    left: 15%;
+    width: 70%;
+    height: 18%;
+    border-radius: 40px;
+    border: 3px solid white;
+    background-color: rgb(22, 24, 36);
+    color: white;
+    font-size: 20px;
+}
+
+#changelocationtext::placeholder {
+    color:white;
+}
+
+#changelocationconfirm {
+    position: relative;
+    left: 50%;
+    width: 50%;
+    height: 15%; 
+    top: -5%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    background: linear-gradient(167deg,  rgb(142, 210, 255) 40%, rgb(109, 167, 255) 90%);
+    border: 4px solid white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+
+}    
+
+#closechangelocationpopup {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    left: 86%;
+    background: none;
+    border: none;
+    color: white;
+    top: -1%;
+    font-size: 50px;
+}
+
+#changelocationtitle {
+    position: relative;
+}
+
+#settingsbutton {
+    position: relative;
+    top: 18.25%;
+    left: 20%;
+    width: 67%;
+    height: 8%; 
+    background: linear-gradient(167deg,  rgb(142, 210, 255) 40%, rgb(109, 167, 255) 90%);
+    border: 4px solid white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#settingsicon {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 19%;
+    right: 27%;
+}
+
+#settingscanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24%;
+    height: 70%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(0deg,  rgb(44, 46, 68) 10%, rgb(30, 36, 50) 80%);
+    border-radius: 40px;
+    border: 4px solid white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+    visibility: hidden;
+}
+
+#closesettingspopup {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    left: 86%;
+    background: none;
+    border: none;
+    color: white;
+    top: -1%;
+    font-size: 50px;
+}
+
+#settingstitle {
+    position: relative;
+    left: 50%;
+    top: -8%;
+    font-size: 40px;
+    width: 60%;
+    text-align: center;
+    height: 10%;
+    transform: translate(-50%, -50%);
+    color: white;  
+}
+
+#currentlocation {
+    position: relative;
+    color:white;
+    font-size: 22px;
+    top: -50%;
+    text-align: center;
+}
+
+#changelocationtitle {
+    position: relative;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    top: -24%;
+    z-index: -1;
+}
+
+#curlocver {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    top: -20%;
+}
+
+#verifier {
+    position: relative;
+    height: 20px;
+    width: 80px;
+    background-color: green;
+    border-radius: 40px;
+    transform: translate(-50%);
+    top: -75%;
+    left: 50%;
+}
+
+#online {
+    color: white;
+    position: relative;
+    font-size: 18px;
+    transform: translate(15%);
+}
+
+#moreinfo {
+    position: relative;
+    color: white;
+    left: 25%;
+    top: 16%;
+    font-size: 18px;
+}
+
+
+
+/* 
+
+1 rgb(44, 46, 68)   
+2 rgb(22, 24, 36)
+3 rgb(47, 49, 73) 
+
+*/

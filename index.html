@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="bodyv2">
+        <div id="information">
+            <!-- start of vals container -->
+            <div id="valsContainer"> 
+                <div class="stats" id="precip">
+                    <h2 class="stats" id="PRECIPITATION">PRECIPITATION:</h2>
+                    <h2 class="vals" id="PRECIPITATIONVALUE">? %</h2>
+                </div>
+                <div class="stats" id="humid">
+                    <h2 class="stats" id="HUMIDITY">HUMIDITY:</h2>
+                    <h2 class="vals" id="HUMIDITYVALUE">? %</h2>
+                </div>
+                <div class="stats" id="wind">
+                    <h2 class="stats" id="WIND">WIND:</h2>
+                    <h2 class="vals" id="WINDVALUE">? KM/H</h2> 
+                </div>
+                <div class="stats" id="viewdis">
+                    <h2 class="stats" id="VIEW">VIEW DISTANCE:</h2>
+                    <h2 class="vals" id="VIEWDIST">? KM</h2> 
+                </div>
+                <a id="moreinfo" href="">Click here for more information</a>
+            </div> 
+            <!-- end of vals container -->
+            <div id="weekdayHolder">
+                <div class="daylist" id="tod">
+                    <img class="weekdayicons" id="todweekdayicon" src="./src/icons/wea/storm.png" alt="">
+                    <h5 class="weekdaydays" id="todweekday">Today</h5>
+                    <h4 class="tempdays" id="todweekdaytemp">? ℃</h4>
+                </div>
+                <div class="daylist" id="tom">
+                    <img class="weekdayicons" id="tomweekdayicon" src="./src/icons/wea/storm.png" alt="">
+                    <h5 class="weekdaydays" id="tomweekday">Unknown</h5>
+                    <h4 class="tempdays" id="tomweekdaytemp">? ℃</h4>
+                </div>
+                <div class="daylist" id="tom1">
+                    <img class="weekdayicons" id="tom1weekdayicon" src="./src/icons/wea/storm.png" alt="">
+                    <h5 class="weekdaydays" id="tom1weekday">Unknown</h5>
+                    <h4 class="tempdays" id="tom1weekdaytemp">? ℃</h4>
+                </div>
+                <div class="daylist" id="tom2">
+                    <img class="weekdayicons" id="tom2weekdayicon" src="./src/icons/wea/storm.png" alt="">
+                    <h5 class="weekdaydays" id="tom2weekday">Unknown</h5>
+                    <h4 class="tempdays" id="tom2weekdaytemp">? ℃</h4>
+                </div> 
+            </div>
+            <button id="changelocationbutton">⠀⠀Change Location</button>
+            <img id="changelocationbuttonicon"src="./src/icons/locationicon.png" alt="Not found">
+            <button id="settingsbutton">⠀Settings</button>
+            <img id="settingsicon" src="./src/icons/settings.png" alt="">
+        </div>
+    </div>
+
+    <div id="picurecontainer">
+        <img id="sunny" src="./src/sunny.jpg" alt="Not found">
+        <div id="sunnyOverlay"></div>
+
+        <div id="sunnyOverlayInfo">
+            <h1 id="day">Unknown</h1>
+            <h2 id="date">Unknown</h2>
+            <img id="locationicon" src="./src/icons/locationicon.png" alt="Not found">
+            <h1 id="location">Unknown, Unknown</h1>
+            <img id="sunnyicon"src="./src/icons/questionmark.png" alt="Not found">
+            <h2 id="weathertype">Unknown</h2>
+            <h1 id="temp">?℃</h1>
+        </div>
+    </div>
+
+    <div id="changelocationpopupcanvas">
+        <button id="closechangelocationpopup">✕</button>
+        <h1 id="changelocationtitle">Location</h1>
+        <div id="curlocver">
+            <h3 id="currentlocation">Current Location: Not selected</h3>
+            <div id="verifier">
+                <h1 id="online">Online</h1>
+            </div>
+        </div>
+        
+        <h2 id="changelocationtitle"></h2>
+        <input type="text" placeholder="Enter location" name="changelocation" id="changelocationtext">
+        <button id="changelocationconfirm">Confirm</button>
+    </div>    
+
+    <div id="settingscanvas">
+        <button id="closesettingspopup">✕</button>
+        <h2 id="settingstitle">Settings</h2>
+    </div> 
+ 
+</body>
+</html>
